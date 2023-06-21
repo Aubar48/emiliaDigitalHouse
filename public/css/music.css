@@ -1,0 +1,56 @@
+
+.music .music__li{
+    list-style: decimal-leading-zero;
+}
+
+.music h1{
+    font-family: 'Work Sans';
+
+}
+
+.music h4{
+    font-family: 'Open Sans';
+    text-transform:capitalize;
+    margin-bottom: 0px ;
+    
+}
+
+.music .music__section--menu li a{
+    font-family: 'Open Sans';
+    color: #44a391;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-left: 30px;
+    font-size: 12px;
+}
+
+.music h2{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.music p{
+    font-size: 14px;
+}
+.music .music__gotop{
+    text-transform: capitalize;
+    color: #44a391;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 14px;
+    
+    
+}
+
+.music article{
+    margin-top: 50px;
+}
+
+.header__horizontal--ul{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+html{
+    scroll-behavior: smooth;
+}

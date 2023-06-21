@@ -1,0 +1,40 @@
+.index__header__vertical {
+  margin-left: 30px;
+}
+
+/*HORIZONTAL*/
+
+/*.header_horizontal--menu{
+    background-color: rgba(255, 255, 255, 0.4);
+}
+*/
+
+.header__horizontal--ul {
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.header__horizontal--ul:hover > :not(:hover) {
+  opacity: 0.2;
+}
+
+.header__horizontal--ul li {
+  margin: 3px;
+}
+
+.index__header__horizontal--redes {
+  display: flex;
+  justify-content: flex-end;
+}
+.index__header__horizontal--redes:hover > :not(:hover) {
+  opacity: 0.2;
+}
+.index__header__horizontal--redes a {
+  margin: 3px;
+}
+
+.header__horizontal__music {
+  background-image: url(/img/emilia-music-top.jpg);
+  padding: 25px;
+}
