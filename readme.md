@@ -1,10 +1,9 @@
-#Tp Emilia, Digital House C21 <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"><img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"><img align="center" alt="JS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">  
-          <figure><img src="./mock/articulo.jpg" alt="entradas"></figure>
-### Ramas del proyecto
+# Tp Emilia, Digital House C21 <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"><img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"><img align="center" alt="JS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">  
 ## [Emilia - Estructura Html](https://github.com/Aubar48/emiliaDigitalHouse/tree/estructura-html)
 ## [Emilia - Estructura Html + Css](https://github.com/Aubar48/emiliaDigitalHouse/tree/estructura-css)
 <figure><img src="./mocks/home.png" alt="logo" style="height: 400px;"></figure>           
-            ## Instrucciones
+
+## Instrucciones
 
 Para ejecutar el proyecto, sigue estos pasos:
 
@@ -32,4 +31,4 @@ npm install
 node app
 ```
 
-El servidor se levantará en el puerto 3000. Puedes acceder a la aplicación en tu navegador web utilizando la siguiente URL: [http://localhost:3000](http://localhost:3000)
+### El servidor se levantará en el puerto 3000. Puedes acceder a la aplicación en tu navegador web utilizando la siguiente URL: [http://localhost:3000](http://localhost:3000)
