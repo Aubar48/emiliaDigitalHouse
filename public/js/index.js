@@ -73,3 +73,32 @@ function cambiarModo() {
     }
 
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+    new TypeIt("#element-music", {
+        strings: ["MUSIC //"],
+    }).go();
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+    new TypeIt("#element-404", {
+        strings: ["ERROR 404, PAGE NOT FOUND!"],
+    }).go();
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+    new TypeIt("#element-contact", {
+        strings: ["CONTACT //"],
+    }).go();
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+    new TypeIt("#element-about", {
+        strings: ["ABOUT"],
+    }).go();
+});
+document.addEventListener("DOMContentLoaded", function () {
+    new TypeIt("#element-about-emilia", {
+        strings: ["EMILIA"],
+    }).go();
+});
