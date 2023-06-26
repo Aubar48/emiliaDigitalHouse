@@ -93,3 +93,21 @@ a:visited {
 .section404 img {
   height: 750px;
 }
+.section404 {
+  animation: move 6s cubic-bezier(1, 1, 1, 1) infinite alternate;
+}
+
+@keyframes move {
+  0% {
+    transform: translate(0, 0) scale(0.6);
+    clip-path: circle(0% at 50% 50%);
+  }
+  50% {
+    transform: translate(0, 0) scale(0.8);
+    clip-path: circle(50% at 50% 50%);
+  }
+  100% {
+    transform: translate(0, 0) scale(0.6);
+    clip-path: circle(0% at 50% 50%);
+  }
+}
