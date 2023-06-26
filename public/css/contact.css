@@ -1,0 +1,39 @@
+.contact__main h1{
+    font-family: "Raleway";
+    font-weight: 700px;
+    
+}
+
+.contact__main h2{
+    font-size: 20px;
+    font-weight: 700px;
+    
+}
+
+.contact__main iframe{
+    width: 100%;
+    height: 450px;
+}
+.contact__main h3{
+    font-family: "Raleway";
+    color: #44a391;
+    
+}
+
+.contact__main__h2{
+    font-family: "Raleway";
+    
+}
+
+.contact__main a{
+    font-family: "Open Sans";
+    color: #44a391;
+    text-transform: lowercase;
+    font-size: 15px;
+}
+
+.contact__main p{
+    font-family: 'Open Sans';
+    font-size: 15px;
+    font-weight: bold;
+}
