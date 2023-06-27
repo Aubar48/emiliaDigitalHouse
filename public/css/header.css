@@ -4,10 +4,9 @@
 
 /*HORIZONTAL*/
 
-/*.header_horizontal--menu{
-    background-color: rgba(255, 255, 255, 0.4);
+.header_horizontal--menu {
+  padding-top: 10px;
 }
-*/
 
 .header__horizontal--ul {
   display: flex;
@@ -26,6 +25,7 @@
 .index__header__horizontal--redes {
   display: flex;
   justify-content: flex-end;
+  padding-top: 10px;
 }
 .index__header__horizontal--redes:hover > :not(:hover) {
   opacity: 0.2;

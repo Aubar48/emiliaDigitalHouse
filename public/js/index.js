@@ -51,7 +51,7 @@ if (document.title === "Contact") {
     }, 1000)
 }
 
-
+//modo dia y noche con localStorage
 const botonModo = document.getElementById("modo");
 botonModo.addEventListener("click", cambiarModo);
 
@@ -73,10 +73,10 @@ function cambiarModo() {
     }
 
 }
-
+//script para texto que se escribe solo
 document.addEventListener("DOMContentLoaded", function () {
     new TypeIt("#element-music", {
-        strings: ["MUSIC //"],
+        strings: ["MUSIC // "],
     }).go();
 });
 
@@ -88,17 +88,33 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.addEventListener("DOMContentLoaded", function () {
     new TypeIt("#element-contact", {
-        strings: ["CONTACT //"],
+        strings: ["CONTACT // "],
     }).go();
 });
 
 document.addEventListener("DOMContentLoaded", function () {
     new TypeIt("#element-about", {
-        strings: ["ABOUT"],
+        strings: ["ABOUT "],
     }).go();
 });
 document.addEventListener("DOMContentLoaded", function () {
     new TypeIt("#element-about-emilia", {
-        strings: ["EMILIA"],
+        strings: ["EMILIA // "],
     }).go();
 });
+
+//mostrar videos de la page music con jquery
+
+// $("#showr").on("click", function () {
+//     $(".video").show("slow");
+// });
+
+$("#showr__music").on("click", function () {
+    $(".video__music").first().show("fast", function showNext() {
+        $(this).next(".video__music").show("fast", showNext);
+    });
+});
+
+
+
+

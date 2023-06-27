@@ -12,6 +12,7 @@ a {
   color: black;
   font-family: "Open Sans";
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 body {
@@ -38,12 +39,14 @@ body.noche {
   color: #f1f1f1;
 }
 
-body.dia .nav-li {
+body.dia a,
+body.dia #showr__music {
   color: #272727;
 }
 
-body.noche .nav-li {
-  color: #9d0d0d;
+body.noche a,
+body.noche #showr__music {
+  color: #44a391;
 }
 
 a:link {
