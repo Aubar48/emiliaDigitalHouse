@@ -1,8 +1,12 @@
 .music .music__li {
   list-style: decimal-leading-zero;
 }
-.music main ul {
+.music main ul li {
   padding-left: 20px;
+  color: darkgrey;
+}
+.music main ul li a {
+  color: darkgrey;
 }
 .music main ol li {
   list-style-type: decimal-leading-zero;
@@ -32,9 +36,6 @@
   font-weight: bold;
 }
 
-.music p {
-  font-size: 14px;
-}
 .music .music__gotop {
   text-transform: capitalize;
   color: #44a391;
