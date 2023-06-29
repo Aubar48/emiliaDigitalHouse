@@ -1,6 +1,12 @@
 .music .music__li {
   list-style: decimal-leading-zero;
 }
+.music main ul {
+  padding-left: 20px;
+}
+.music main ol li {
+  list-style-type: decimal-leading-zero;
+}
 
 .music h1 {
   font-family: "Work Sans";
