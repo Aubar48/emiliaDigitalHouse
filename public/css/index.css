@@ -23,3 +23,40 @@ body.index {
 .index li {
   margin: 10px;
 }
+@media screen and (min-width: 360px) {
+  body.index {
+    background-image: url(/img/emilia-home.jpg);
+    background-size: 60% 100vh;
+    background-repeat: no-repeat;
+    background-position: right;
+    object-fit: cover;
+    margin: 0px;
+  }
+
+  .index h1 {
+    font-size: 1.2em;
+    margin-top: 0px;
+    margin-left: 30px;
+  }
+  .index__footer {
+    margin-top: 280px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  body.index {
+    background-image: url(/img/emilia-home.jpg);
+    background-size: 80% 100vh;
+    background-repeat: no-repeat;
+    background-position: right 0px;
+    object-fit: cover;
+  }
+  .index h1 {
+    font-size: 1.4em;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .index__footer {
+    margin-top: 120px;
+  }
+}
