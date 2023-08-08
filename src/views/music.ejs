@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include("partials/head") %>
+
+    <body class="music">
+        <%- include("partials/header") %>
+            <main>
+                <span id="element-music"></span>
+                <a id="showr__music">Mostrar Contenido</a>
+                <section>
+                    <article>
+                        <h4>DIRECT LINKS</h4>
+                        <ul>
+                            <li>
+                                <h4>ALBUM</h4>
+                            </li>
+                            <li><a href="#organicLove">Video: Organic Love</a></li>
+                            <li><a href="#streetLight">Video: Street Light</a></li>
+                        </ul>
+
+                    </article>
+
+                </section>
+                <section>
+                    <article>
+                        <h2>ALBUM <br> TWIST IN MY REALITY</h2>
+                        <img src="/images/emilia-play-list.jpg" alt="emilia-play-list.jpg">
+                        <ol>
+                            <li><i class="fa-solid fa-play"></i>Organic Love | 02:40</li>
+                            <li><i class="fa-solid fa-play"></i>Twist in my reality | 02:10</li>
+                            <li><i class="fa-solid fa-play"></i>Stree Light | 03:28</li>
+                            <li><i class="fa-solid fa-play"></i>Love Don't Live Here Anymore (Cover) | 03:49</li>
+                        </ol>
+                        <a class="music__gotop" href="#header__horizontal__music">Go Top</a>
+                    </article>
+                    <article class="video__music">
+                        <h3 id="organicLove">VIDEO <br>ORGANIC LOVE</h3>
+                        <iframe class="iframe" src="https://player.vimeo.com/video/135166028?h=fdb0646ae5" width="640"
+                            height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <p>Directed by VINCE MALC & EMILIA COLE <br>
+                            Edited and Filmed by NICOLAS TROY <br>
+                            Produced by NIKI HEART,<br>
+                            Wix Films LTD.</p>
+                        <a class="music__gotop" href="#">Go Top</a>
+                    </article>
+                    <article class="video__music">
+                        <h3 id="streetLight">VIDEO <br>STREET LIGHT</h3>
+                        <iframe class="iframe" src="https://player.vimeo.com/video/134861419?h=24e3183108" width="640"
+                            height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <p>Directed by VINCE MALC & EMILIA COLE <br>
+                            Edited and Filmed by NICOLAS TROY <br>
+                            Produced by NIKI HEART,<br>
+                            Wix Films LTD.</p>
+                        <a class="music__gotop" href="#">Go Top</a>
+                    </article>
+                </section>
+            </main>
+
+            <%- include("partials/footer") %>
+
+            <%- include("partials/scripts") %>   
+    </body>
+
+</html>
